@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <h1>Weather Dashboard</h1>
+    <main class="container-fluid">
+      <div class="row">
+        <!-- Search bar from bootstrap -->
+        <nav class="navbar navbar-light bg-light justify-content-between">
+          <a class="navbar-brand">Searcb for a city</a>
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </nav>
+        <h2>
+          <ul class="list-group" id="city-list"></ul>
+        </h2>
+      </div>
+      <div class="col-lg">
+        <div class="jumbotron">
+          <h1 class="display-4" id="weather"></h1>
+          <p class="lead" id="name"></p>
+          <h2 id="temp"></h2>
+          <h2 id="humidity"></h2>
+          <h2 id="wind-speed"></h2>
+        </div>
+        <h2>5-Day Forecast:</h2>
+        <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" alt="" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up
+              the bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    </main>
+  </body>
+</html>
