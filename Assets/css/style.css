@@ -1,0 +1,48 @@
+body {
+	background-color: #4cb944;
+}
+.container-fluid {
+	background-color: #fdfffc;
+}
+
+.card {
+	display: flex;
+	height: fit-content;
+	bottom: auto;
+}
+
+#today-weather {
+	float: left;
+	width: fit-content;
+	background-color: #f5ee9e;
+}
+.card h1 {
+	text-decoration: underline;
+	color: #f06543;
+	text-align: center;
+}
+
+#five-weather {
+	text-align: center;
+	background-color: #f5ee9e;
+}
+
+.cardSize {
+	margin-left: 2px;
+}
+
+.card-img-top {
+	width: 100px;
+	height: 100px;
+}
+
+#searched-cities {
+	width: 23%;
+	text-align: center;
+	text-decoration: underline;
+	font-size: medium;
+}
+/* #per-day {
+	float: left;
+	width: 25px;
+} */
